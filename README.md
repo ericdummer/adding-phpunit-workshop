@@ -6,7 +6,7 @@
 composer required --dev phpunit/phpunit
 ```
 
-3. Add the following to composer.json. If the scripts attribute is already there, just add the `"test": phpunit` to scripts
+3. Add the scripts attribute with `"tests": "phpunit"` to composer.json. If the scripts attribute is already there, just add the `"test": phpunit` to scripts
 
 ```json
 {
@@ -41,7 +41,7 @@ composer required --dev phpunit/phpunit
 7. In PHPStorm, navigate to `src/MySite/Example.php`
 8. Put your cursor on the method `helloWorld` and press `Ctrl+Shift+T` or `⇧⌘T` in macOS.
 This will create a new file at `tests/MySite/ExampleTest.php`
-9. Add a test to prove `helloWolrd` is working correctly.
+9. Add a test to prove `helloWorld` is working correctly, i.e. should return `Hello World!`)
 10. In the container, type `composer test` to see run the tests.
 
 ### Running just one test on the commandline
