@@ -4,6 +4,6 @@ class Example
 {
     public function helloWorld()
     {
-        return "Hello, World!";
+        return "Hello, Worlde!";
     }
 }
