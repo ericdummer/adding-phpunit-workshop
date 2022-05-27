@@ -66,4 +66,4 @@ To rebuild it after a Docker change:
 
 To connect to the container (using bash)
 
-```docker exec -it docker-php-composer-core-1 /bin/bash```
+```docker exec -it adding-phpunit-workshop-core-1 /bin/bash```
